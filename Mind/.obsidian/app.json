@@ -1,0 +1,21 @@
+{
+  "spellcheckLanguages": [
+    "es",
+    "en"
+  ],
+  "vimMode": false,
+  "showInlineTitle": false,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "Images",
+  "userIgnoreFilters": [
+    "Excalidraw/"
+  ],
+  "defaultViewMode": "preview",
+  "livePreview": true,
+  "focusNewTab": true,
+  "readableLineLength": false,
+  "promptDelete": false,
+  "showUnsupportedFiles": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": ""
+}

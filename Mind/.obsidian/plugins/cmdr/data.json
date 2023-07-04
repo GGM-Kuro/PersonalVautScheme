@@ -1,0 +1,69 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [],
+  "leftRibbon": [
+    {
+      "id": "obsidian-kanban:create-new-kanban-board",
+      "icon": "clipboard-check",
+      "name": "New Kanban",
+      "mode": "any",
+      "color": "#889df1"
+    },
+    {
+      "id": "obsidian-excalidraw-plugin:excalidraw-autocreate-popout",
+      "icon": "brush",
+      "name": "New draw",
+      "mode": "any",
+      "color": "#889df1"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "quickadd:choice:96a7f556-68b9-4fec-8605-d7287bd52c02",
+      "icon": "plus",
+      "name": "New Task",
+      "mode": "any",
+      "color": "#669bf0"
+    },
+    {
+      "id": "workspace:toggle-pin",
+      "icon": "lucide-pin",
+      "name": "Pin",
+      "mode": "any",
+      "color": "#669bf0"
+    }
+  ],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": [
+      "Create a new database table",
+      "Advanced Tables Toolbar",
+      "Templater",
+      "Create new drawing",
+      "Insert template",
+      "Open command palette",
+      "Open quick switcher",
+      "Open today's daily note",
+      "Open today"
+    ]
+  },
+  "spacing": "9",
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

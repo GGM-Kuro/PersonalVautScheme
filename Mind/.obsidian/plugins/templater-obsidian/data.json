@@ -1,0 +1,51 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "Knowledge/Notes",
+      "template": "Templates/note.md"
+    },
+    {
+      "folder": "Knowledge/Concepts",
+      "template": "Templates/concept.md"
+    },
+    {
+      "folder": "Journal/Daily",
+      "template": "Templates/daily.md"
+    },
+    {
+      "folder": "Journal/Weekly",
+      "template": "Templates/weekly.md"
+    },
+    {
+      "folder": "Knowledge/Abilities",
+      "template": "Templates/ability.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "enabled_templates_hotkeys": [
+    "Templates/insertConcept.md",
+    "Templates/insertTheme.md",
+    "Templates/insertNote.md",
+    "Templates/randomNote.md",
+    "Templates/insertLink.md",
+    "Templates/ability.md"
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "enable_ribbon_icon": true
+}
