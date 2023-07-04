@@ -31,7 +31,7 @@ FROM ([[<% title %>]]) AND #concept
 ---
 ```dataview
 TABLE without id
-"[" + topics + "]" + "(" + file.name + ")" as Notes, 
+"[" + title + "]" + "(" + file.name + ")" as Notes, 
 date
 
 
