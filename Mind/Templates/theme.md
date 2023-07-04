@@ -4,6 +4,7 @@ while (tp.file.find_tfile("/Knowledge/Themes/" + title)){
 title = await tp.system.prompt("Already exist, insert new name:")};
 await tp.file.move("/Knowledge/Themes/" + title)
 tR += title; %>
+tag: theme
 ---
 
 
