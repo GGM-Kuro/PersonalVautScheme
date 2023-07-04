@@ -2,7 +2,7 @@
 >  **Es importante crear las habilidades antes de comenzar a trabajar con este vault **
 >  (ALT + N) -> ability 
 
-# Nuevo de plantilla || ALT + N 
+# Nueva plantilla || ALT + N 
 -  abriremos el menu de creacion a partir de plantillas, al abrir este menu se mostrara un listado donde podremos escoger entre una de las plantillas, las que comienzan con _insert_* son para ingresar  directamente en el documento que nos encontramos (no usar desde este menu).
 -  Cada una de estas plantillas nos pedira los datos que necesitemos para crearlas. 
 
