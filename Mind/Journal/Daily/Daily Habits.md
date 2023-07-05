@@ -30,25 +30,6 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
-  bike:
-    input: number
-    accessorKey: bike
-    key: bike
-    id: bike
-    label: bike
-    position: 4
-    skipPersist: false
-    isHidden: false
-    sortIndex: -1
-    config:
-      enable_media_view: true
-      link_alias_enabled: true
-      media_width: 100
-      media_height: 100
-      isInline: false
-      task_hide_completed: true
-      footer_type: none
-      persist_changes: false
   mood:
     input: select
     accessorKey: mood
@@ -63,10 +44,6 @@ columns:
       - { label: "😣", value: "😣", color: "hsl(0,74%,82%)"}
       - { label: "😒", value: "😒", color: "hsl(0,0%,58%)"}
       - { label: "😁", value: "😁", color: "hsl(121,100%,76%)"}
-      - { label: "<% tp.system.suggester(['😁','😣','😒'], ['😁','😣','😒']) %>", value: "<% tp.system.suggester(['😁','😣','😒'], ['😁','😣','😒']) %>", color: "hsl(358, 95%, 90%)"}
-      - { label: "<% await tp.system.suggester(['😁','😣','😒'], ['😁','😣','😒']) %>", value: "<% await tp.system.suggester(['😁','😣','😒'], ['😁','😣','😒']) %>", color: "hsl(117, 95%, 90%)"}
-      - { label: "<% await tp.system.suggester(['😁','😣','😒'], ['😁','😣','😒']); %>", value: "<% await tp.system.suggester(['😁','😣','😒'], ['😁','😣','😒']); %>", color: "hsl(107, 95%, 90%)"}
-      - { label: "<% await tp.system.suggester(['😁','😣','😒'], ['😁','😣','😒'],true,'how was the day?') %>", value: "<% await tp.system.suggester(['😁','😣','😒'], ['😁','😣','😒'],true,'how was the day?') %>", color: "hsl(233, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -88,8 +65,8 @@ columns:
     isHidden: false
     sortIndex: -1
     options:
-      - { label: "❌", value: "❌", color: "hsl(84, 95%, 90%)"}
-      - { label: "✅", value: "✅", color: "hsl(10, 95%, 90%)"}
+      - { label: "❌", value: "❌", color: "hsl(0,95%,84%)"}
+      - { label: "✅", value: "✅", color: "hsl(119,100%,80%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -99,19 +76,20 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
-  englishClass:
+      option_source: manual
+  english:
     input: select
-    accessorKey: englishClass
-    key: englishClass
+    accessorKey: english
+    key: english
     id: englishClass
-    label: englishClass
+    label: english
     position: 100
     skipPersist: false
     isHidden: false
     sortIndex: -1
     options:
-      - { label: "❌", value: "❌", color: "hsl(176, 95%, 90%)"}
-      - { label: "✅", value: "✅", color: "hsl(10, 95%, 90%)"}
+      - { label: "❌", value: "❌", color: "hsl(15,94%,86%)"}
+      - { label: "✅", value: "✅", color: "hsl(124,100%,85%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -121,6 +99,118 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
+      option_source: manual
+  breackfast:
+    input: select
+    accessorKey: breackfast
+    key: breackfast
+    id: breackfast
+    label: breackfast
+    position: 100
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    options:
+      - { label: "❌", value: "❌", color: "hsl(326, 95%, 90%)"}
+      - { label: "✅", value: "✅", color: "hsl(127,100%,84%)"}
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+      option_source: manual
+  train:
+    input: select
+    accessorKey: train
+    key: train
+    id: train
+    label: train
+    position: 100
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    options:
+      - { label: "❌", value: "❌", color: "hsl(21, 95%, 90%)"}
+      - { label: "✅", value: "✅", color: "hsl(119,100%,83%)"}
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+      option_source: manual
+  read:
+    input: number
+    accessorKey: read
+    key: read
+    id: read
+    label: read
+    position: 100
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  study:
+    input: select
+    accessorKey: study
+    key: study
+    id: study
+    label: study
+    position: 100
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    options:
+      - { label: "✅", value: "✅", color: "hsl(124,100%,83%)"}
+      - { label: "❌", value: "❌", color: "hsl(0,96%,90%)"}
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+      option_source: manual
+  activity:
+    input: select
+    accessorKey: activity
+    key: activity
+    id: activity
+    label: activity
+    position: 100
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    options:
+      - { label: "❌", value: "❌", color: "hsl(0,100%,88%)"}
+      - { label: "✅", value: "✅", color: "hsl(141, 95%, 90%)"}
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+      option_source: manual
 config:
   remove_field_when_delete_column: false
   cell_size: normal

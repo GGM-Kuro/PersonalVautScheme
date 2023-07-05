@@ -8,7 +8,7 @@ tR += "title: " + title + "\ntheme: " + theme;
 await tp.file.move("/Knowledge/Concepts/" + theme + '_' + title);
 %>
 
-tags: knowledge content <% tp.file.cursor(0) %>
+tags: knowledge concept <% tp.file.cursor(0) %>
 ---
 
 

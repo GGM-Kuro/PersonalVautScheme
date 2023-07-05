@@ -6,20 +6,20 @@
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "Journal/Daily/{{date}}",
+      "captureTo": "Tasks/JournalTasks.md",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": true,
-        "createWithTemplate": true,
+        "createWithTemplate": false,
         "template": "Templates/daily.md"
       },
       "format": {
         "enabled": true,
-        "format": "- [ ] {{VALUE:Task name}}{{VALUE:⏫,🔼, ,🔽}} 📅 {{VDATE:Due date, YYYY-MM-DD}} \\n"
+        "format": "- [ ] {{VALUE:Task name}} {{VALUE:🔺,⏫,🔼, ,🔽}} 📅 {{VDATE:Due date, YYYY-MM-DD}} \\n"
       },
       "insertAfter": {
         "enabled": true,
-        "after": "**Alt + T to add task**",
+        "after": "# Tasks",
         "insertAtEnd": false,
         "considerSubsections": false,
         "createIfNotFound": false,

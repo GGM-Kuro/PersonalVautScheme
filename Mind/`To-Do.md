@@ -4,15 +4,20 @@ kanban-plugin: basic
 
 ---
 
-## Queue
+## 📋Backlog
+
+- [ ] Primero Crear un projecto
+
+
+## 🏗️ In progress
 
 
 
-## Doing
+## 👀 In review
 
 
 
-## Done
+## ✅ Done
 
 **Complete**
 
@@ -21,6 +26,6 @@ kanban-plugin: basic
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic","lane-width":350,"tag-colors":[],"metadata-keys":[{"metadataKey":"tags","label":"themes","shouldHideLabel":false,"containsMarkdown":false}]}
+{"kanban-plugin":"basic","new-note-folder":"Tasks/Projects","hide-card-count":false,"show-checkboxes":true,"tag-colors":[{"tagKey":"","color":"","backgroundColor":""}],"archive-with-date":false,"date-picker-week-start":1,"metadata-keys":[{"metadataKey":"project","label":"","shouldHideLabel":false,"containsMarkdown":false}],"date-colors":[]}
 ```
 %%

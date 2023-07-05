@@ -1,0 +1,197 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {
+        "path": {
+          "richText": true,
+          "options": [
+            "📋 Backlog",
+            "🏗️ In progress",
+            "👀 In review",
+            "✅ Done"
+          ]
+        },
+        "status": {
+          "options": [
+            "Backlog",
+            "In progress",
+            "In review",
+            "Done"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [
+        "Templates/theme.md"
+      ],
+      "excludedNotes": [
+        "Knowledge/Projects/testProject/aad0e3bf-b07e-4978-b40a-8bd28ee29d34_db.md"
+      ],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Knowledge/Projects/testProject",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "includeFields": [],
+            "groupByField": "status",
+            "columns": {
+              "Backlog": {
+                "weight": 0
+              },
+              "In progress": {
+                "weight": 1
+              },
+              "In review": {
+                "weight": 2
+              },
+              "Done": {
+                "weight": 3
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "eccffc92-14a0-4dc0-9e73-90ce77b4ea70",
+          "name": "testBoard",
+          "type": "board"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "9d015f1c-622d-4bcb-9cd8-703fb266ff7b",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "filepath": "Knowledge/Projects/testProject/aad0e3bf-b07e-4978-b40a-8bd28ee29d34_db.md"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "aad0e3bf-b07e-4978-b40a-8bd28ee29d34",
+          "name": "Dababase project",
+          "type": "dbfolder-view"
+        },
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "3593af0e-1008-45a5-aeb7-b370f5e937bf",
+          "name": "Calendar",
+          "type": "calendar"
+        }
+      ],
+      "id": "598f16fd-c0f1-4ebd-bff8-b9a6d167450a",
+      "name": "testProject"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Knowledge/Projects/Game Design",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "168fcf90-d191-4b07-a736-0847b8ab7985",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "718094db-fd70-44c4-8540-a6fc73bd32c3",
+          "name": "Calendar",
+          "type": "calendar"
+        }
+      ],
+      "id": "c3cf92dd-7f54-446f-968f-c83f2a0d8cef",
+      "name": "Game Design"
+    }
+  ],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": []
+  }
+}

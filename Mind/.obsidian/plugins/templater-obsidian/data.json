@@ -42,7 +42,8 @@
     "Templates/insertNote.md",
     "Templates/randomNote.md",
     "Templates/insertLink.md",
-    "Templates/ability.md"
+    "Templates/ability.md",
+    "Templates/insertAbilitie.md"
   ],
   "startup_templates": [
     ""

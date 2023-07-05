@@ -2,7 +2,6 @@
   "dataview",
   "obsidian-excalidraw-plugin",
   "homepage",
-  "obsidian-kanban",
   "metaedit",
   "templater-obsidian",
   "calendar",
@@ -16,5 +15,7 @@
   "obsidian-tasks-plugin",
   "cmdr",
   "quickadd",
-  "nldates-obsidian"
+  "nldates-obsidian",
+  "obsidian-sortable",
+  "obsidian-kanban"
 ]

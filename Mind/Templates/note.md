@@ -12,7 +12,7 @@ await tp.file.move('Knowledge/Notes/' + tempTitle);
 date: <% tp.file.creation_date("YYYY-MM-DD") %>
 week: <% moment(tp.date.now()).format("gggg-[W]ww") %>
 tags: knowledge note
-title: <%* let title = await tp.system.prompt("Title", true);
+title: <%* let title = await tp.system.prompt("Title",theme + "_note", true);
 tR += title %>
 ---
 

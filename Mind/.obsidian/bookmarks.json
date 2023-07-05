@@ -2,12 +2,6 @@
   "items": [
     {
       "type": "file",
-      "ctime": 1688313290552,
-      "path": "Journal/Daily/Daily Habits.md",
-      "title": "Daily Habits"
-    },
-    {
-      "type": "file",
       "ctime": 1688331362079,
       "path": "`To-Do.md"
     },
@@ -15,6 +9,16 @@
       "type": "file",
       "ctime": 1688334109705,
       "path": "Review.canvas"
+    },
+    {
+      "type": "file",
+      "ctime": 1688578035615,
+      "path": "Knowledge/Library.canvas"
+    },
+    {
+      "type": "folder",
+      "ctime": 1688574406845,
+      "path": "Projects"
     }
   ]
 }

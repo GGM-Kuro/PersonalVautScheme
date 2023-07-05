@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "TemeTest_2023-07-04_00-21",
-      "path": "Knowledge/Notes/TemeTest_2023-07-04_00-21.md"
+      "basename": "Library",
+      "path": "Knowledge/Library.canvas"
     },
     {
-      "basename": "AbilityTest",
-      "path": "Knowledge/Abilities/AbilityTest.md"
+      "basename": "`To-Do",
+      "path": "`To-Do.md"
+    },
+    {
+      "basename": "JournalTasks",
+      "path": "Tasks/JournalTasks.md"
+    },
+    {
+      "basename": "daily",
+      "path": "xClass/daily.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Daily Habits",
+      "path": "Journal/Daily/Daily Habits.md"
     }
   ],
   "omittedPaths": [

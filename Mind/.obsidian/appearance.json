@@ -12,7 +12,9 @@
     "S - Callouts",
     "tasks",
     "callouts",
-    "sticky"
+    "sticky",
+    "dashboard",
+    "Minimal Theme cards"
   ],
   "interfaceFontFamily": "Inter"
 }
