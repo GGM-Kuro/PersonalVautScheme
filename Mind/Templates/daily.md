@@ -28,7 +28,7 @@ Today have to practice: [[<% theme %>]]
 # Notes
 ```dataview
 TABLE without id
-"[" + topics + "]" + "(" + file.name + ")"  AS Notes, 
+"[" + title + "]" + "(" + file.name + ")"  AS Notes, 
 theme AS Theme,
 file.frontmatter.date 
 
