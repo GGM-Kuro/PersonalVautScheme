@@ -1,5 +1,5 @@
 ---
-date: <% tp.date.now() %>
+date: <% tp.file.title %>
 week: <% moment(tp.file.title).format("gggg-[W]ww")%>
 mood: <% await tp.system.suggester(['😁','😣','😒'], ['😁','😣','😒'],true,'how was the day?') %>
 bike: <%  await tp.system.prompt("How long are you going to ride a bike today??", "0")%>
@@ -26,12 +26,12 @@ Today have to practice: [[<% ability %>]]
 ### **Earrings**
 ```tasks
 not done
-due <% tp.date.now() %>
+due <% tp.file.title %>
 ```
 
 ### **Completed**
 ```tasks
-due <% tp.date.now() %>
+due <% tp.file.title %>
 done
 ```
 ---

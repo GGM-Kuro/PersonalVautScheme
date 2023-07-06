@@ -11,14 +11,9 @@
             "id": "b91e15f18515750a",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "kanban",
               "state": {
-                "file": "Knowledge/Library.canvas",
-                "viewState": {
-                  "x": -1463,
-                  "y": -490,
-                  "zoom": 0
-                }
+                "file": "`To-Do.md"
               }
             }
           }
@@ -123,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge/Library.canvas"
+                "file": "`To-Do.md"
               }
             }
           },
@@ -178,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge/Library.canvas",
+                "file": "`To-Do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge/Library.canvas",
+                "file": "`To-Do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,14 +214,17 @@
       "homepage:Open homepage": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "periodic-notes:Open today": false,
       "dbfolder:Create a new database table": false,
       "cmdr:New Kanban": false,
-      "cmdr:New draw": false,
-      "periodic-notes:Open today": false
+      "cmdr:New draw": false
     }
   },
-  "active": "47beda4b6b71af72",
+  "active": "b91e15f18515750a",
   "lastOpenFiles": [
+    "Templates/daily.md",
+    "Project",
+    "Knowledge/Library.canvas",
     "Templates/task.md",
     "`To-Do.md",
     "Tasks/ogro_dibujar_cabeza.md",
@@ -235,7 +233,6 @@
     "Projects/ogro.md",
     "Tasks/JournalTasks.md",
     "Knowledge/Abilities/cabezas.md",
-    "Templates/daily.md",
     "Templates/ability.md",
     "xClass/daily.md",
     "README.md",
@@ -253,9 +250,7 @@
     "Tasks/Tasks.md",
     "Tasks/o.md",
     "Tasks/hola.md",
-    "Projects/Tasks/aoeu.md",
     "Knowledge/Projects",
-    "Knowledge/Library.canvas",
     "Projects/Tasks",
     "Knowledge/Projects/`To-Do",
     "Knowledge/Projects/Nueva carpeta",
@@ -263,7 +258,6 @@
     "Knowledge/Projects/Game Design",
     "Knowledge/Projects/testProject",
     "Projects",
-    "Tasks",
     "Images/Pasted Image 20230703225852_594.png",
     "Images/Pasted image 20230703225822.png",
     "Menu.canvas",
