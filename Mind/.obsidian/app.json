@@ -1,9 +1,8 @@
 {
   "spellcheckLanguages": [
-    "es",
-    "en"
+    "es-ES"
   ],
-  "vimMode": false,
+  "vimMode": true,
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "Images",
@@ -17,5 +16,13 @@
   "promptDelete": false,
   "showUnsupportedFiles": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": ""
+  "newFileFolderPath": "",
+  "showFrontmatter": false,
+  "showLineNumber": true,
+  "pdfExportSettings": {
+    "pageSize": "Tabloid",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

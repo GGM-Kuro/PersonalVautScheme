@@ -1,14 +1,6 @@
 {
   "scanned": true,
-  "reminders": {
-    "Tasks/JournalTasks.md": [
-      {
-        "title": "tareadiaria 🔺",
-        "time": "2023-07-05",
-        "rowNumber": 5
-      }
-    ]
-  },
+  "reminders": {},
   "debug": false,
   "settings": {
     "reminderTime": "09:00",

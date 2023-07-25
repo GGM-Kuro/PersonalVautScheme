@@ -4,11 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "0b8d8ce2ee48e456",
+        "id": "829c38e40319be02",
         "type": "tabs",
         "children": [
           {
-            "id": "b91e15f18515750a",
+            "id": "96aae0c6283b0652",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journal/Weekly/2023-W30.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "c630b20a0d0b952f",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -17,7 +32,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -47,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "affini",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +115,7 @@
       {
         "id": "6257ad4c98889994",
         "type": "tabs",
-        "dimension": 19.89121989121989,
+        "dimension": 19.883419689119172,
         "children": [
           {
             "id": "ba622b2a659833d0",
@@ -135,7 +151,7 @@
       {
         "id": "765591fd74f8a986",
         "type": "tabs",
-        "dimension": 31.080031080031077,
+        "dimension": 30.11658031088083,
         "children": [
           {
             "id": "c061e00d2ae96a44",
@@ -150,7 +166,7 @@
       {
         "id": "2cc206f39a0b92f7",
         "type": "tabs",
-        "dimension": 26.961926961926967,
+        "dimension": 12.953367875647666,
         "children": [
           {
             "id": "20232d36c11150e9",
@@ -165,7 +181,7 @@
       {
         "id": "e9210c7cd88c051a",
         "type": "tabs",
-        "dimension": 22.066822066822066,
+        "dimension": 37.04663212435233,
         "children": [
           {
             "id": "da4b34d375b3cc7b",
@@ -214,50 +230,51 @@
       "homepage:Open homepage": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "periodic-notes:Open today": false,
       "dbfolder:Create a new database table": false,
       "cmdr:New Kanban": false,
-      "cmdr:New draw": false
+      "cmdr:New draw": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "b91e15f18515750a",
+  "active": "c630b20a0d0b952f",
   "lastOpenFiles": [
-    "Templates/daily.md",
-    "Project",
-    "Knowledge/Library.canvas",
-    "Templates/task.md",
+    "Untitled.md",
+    "Journal/Weekly/2023-W30.md",
+    "Projects/Teclado_laura.md",
+    "Journal/Daily/2023-07-25.md",
+    "Knowledge/Notes/english_2023-07-24_08-05.md",
+    "Journal/Daily/2023-07-24.md",
+    "Knowledge/Notes/Teclado_laura_2023-07-21_12-23.md",
+    "Draw/Guia de usuario.md",
+    "Tasks/ProjectsTasks/construccion.tskTecladoLaura.md",
+    "Tasks/ProjectsTasks/Guia_para_poner_en_marcha_el_backend.tskAffinite.md",
     "`To-Do.md",
-    "Tasks/ogro_dibujar_cabeza.md",
-    "Journal/Weekly/2023-W27.md",
-    "Journal/Daily/2023-07-03.md",
-    "Projects/ogro.md",
-    "Tasks/JournalTasks.md",
-    "Knowledge/Abilities/cabezas.md",
-    "Templates/ability.md",
-    "xClass/daily.md",
-    "README.md",
-    "Knowledge/Themes/testTheme.md",
-    "Knowledge/Notes/testTheme_2023-07-05_10-49.md",
-    "Templates/Project.md",
-    "Tasks/ogro_cabeza.md",
-    "Journal/Daily/Daily Habits.md",
-    "Tasks/Projects/test.md",
-    "Tasks/Projects/dibujar cabeza.md",
-    "Tasks/dibujar cabeza.md",
+    "Journal/Weekly/2023-W29.md",
+    "Untitled Kanban.md",
+    "Draws/Drawing 2023-06-26 20.28.44.excalidraw.md",
+    "Draw",
+    "Draw/Drawing 2023-07-21 14.02.29.excalidraw.md",
+    "Journal/Daily/2023-07-21.md",
+    "Templates/project.md",
+    "Templates/note.md",
+    "Projects/Affinite.md",
+    "Projects/Keyboards.md",
+    "Tasks/ProjectsTasks/Teclado_Laura.tskKeyboards.md",
+    "Knowledge/Notes/Keyboards_2023-07-21_12-13.md",
+    "Knowledge/Notes/Keyboards_2023-07-21_12-03.md",
+    "Templates/task.md",
+    "Templates/theme.md",
+    "Knowledge/Notes/unity_2023-07-21_11-56.md",
+    "Knowledge/Library.canvas",
+    "Tasks/ProjectsTasks/prtsk.aff",
     "Tasks/ProjectsTasks",
-    "Tasks/ole.md",
-    "Tasks/test.md",
-    "Tasks/Tasks.md",
-    "Tasks/o.md",
-    "Tasks/hola.md",
-    "Knowledge/Projects",
+    "Tasks/ProjectTasks",
+    "Projects/Notes",
     "Projects/Tasks",
-    "Knowledge/Projects/`To-Do",
-    "Knowledge/Projects/Nueva carpeta",
-    "Knowledge/Projects/Afinitte",
-    "Knowledge/Projects/Game Design",
-    "Knowledge/Projects/testProject",
+    "Tasks",
     "Projects",
+    "Projects/Afinitte",
+    "Projects/Game Design",
     "Images/Pasted Image 20230703225852_594.png",
     "Images/Pasted image 20230703225822.png",
     "Menu.canvas",

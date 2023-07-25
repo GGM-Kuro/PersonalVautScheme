@@ -4,5 +4,5 @@
   "hide-date-in-title": true,
   "hide-date-display": true,
   "new-note-template": "Templates/task.md",
-  "new-note-folder": "Tasks/ProjectsTasks"
+  "new-note-folder": "Knowledge/Projects"
 }

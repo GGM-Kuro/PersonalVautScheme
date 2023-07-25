@@ -1,7 +1,12 @@
 ---
 theme: <%* 
-let choice = await tp.system.suggester(["Theme","Book"],["Themes","Books"],true,"Choice note type");
-let theme = (await tp.system.suggester((item) => item.basename, app.vault.getFiles().filter(file => file.path.includes("Knowledge/"+ choice + "/")), false, 'Choice ' + choice)).basename;
+let choice = await tp.system.suggester(["Theme","Book","Project"],["Themes","Books","Projects"],true,"Choice note type");
+let theme
+if (choice == "Projects"){
+ theme = (await tp.system.suggester((item) => item.basename, app.vault.getFiles().filter(file => file.path.includes(choice + "/") &&  !file.path.includes("Tasks") && !file.path.includes("Knowledge")), false, 'Choice ' + choice)).basename;
+} else {
+ theme = (await tp.system.suggester((item) => item.basename, app.vault.getFiles().filter(file => file.path.includes("Knowledge/"+ choice + "/")), false, 'Choice ' + choice)).basename;
+}
 tR += theme;
 
 let tempTitle = await theme + '_' + tp.date.now("YYYY-MM-DD_HH-mm");
@@ -17,7 +22,8 @@ tR += title %>
 ---
 
 # <% title %>
-<% tp.file.cursor(0)%>
+<% tp.file.cursor(0) %>
+
 
 
 ---

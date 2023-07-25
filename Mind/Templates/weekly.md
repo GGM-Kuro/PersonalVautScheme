@@ -1,5 +1,6 @@
 ---
-bikeGoal: <% await tp.system.prompt(" How long are you going to ride a bike this week?", "0") %>
+readGoal: <% await tp.system.prompt(" How long will you read this week?", "0") %>
+streamGoal: <% await tp.system.prompt(" How long will you stream this week?", "0") %>
 ---
 [[README]] || [[`To-Do|To-do Kanban ]] || [[Library.canvas|Library]]
 [[Journal/Weekly/<% moment(tp.file.title).subtract(1,'week').format("gggg-[W]ww") %>|↶ Previous Week]] | [[Journal/Weekly/<% moment(tp.file.title).add(1,'week').format("gggg-[W]ww") %>|↷ Next Week]] 
@@ -7,7 +8,10 @@ bikeGoal: <% await tp.system.prompt(" How long are you going to ride a bike this
 # <% moment(tp.file.title).startOf('isoWeek').format("MMM DD") %> - <% moment(tp.file.title).endOf('isoWeek').format("MMM DD") %>
 
 # Days
-
+```dataview
+List From "Journal/Daily"
+Where file.name = date(today)
+```
 -[[Journal/Daily/<% moment(tp.file.title).startOf('isoWeek').add(0,'day').format("YYYY-MM-DD") %>|Monday]]
 -[[Journal/Daily/<% moment(tp.file.title).startOf('isoWeek').add(1,'day').format("YYYY-MM-DD") %>|Tuesday]]
 -[[Journal/Daily/<% moment(tp.file.title).startOf('isoWeek').add(2,'day').format("YYYY-MM-DD") %>|Wednesday]]
@@ -17,32 +21,24 @@ bikeGoal: <% await tp.system.prompt(" How long are you going to ride a bike this
 -[[Journal/Daily/<% moment(tp.file.title).startOf('isoWeek').add(6,'day').format("YYYY-MM-DD") %>|Sunday]]
 
 ---
-# Daily overview
+# Daily
 ```dataview
 TABLE without ID
 	file.link AS Day,
 	mood as "😶‍🌫️",
-	bike as "🚴‍♂️",
-	gym AS "🏋️‍♂️",
-    practice + "| "  + "[[" + ability + "]]" AS " 📖 ✏️",
-	englishClass  AS "🗽"
+	activity as "🚶‍♂️",
+	train AS "🏋️‍♂️",
+	read AS "📖",
+	stream AS "🎥🐵",
+    practice + "| "  + "[[" + ability + "]]" AS " 📃 ✏️",
+	english  AS "🗽",
+	breackfast As "🥞"
 FROM "Journal/Daily"
 WHERE week = "<% moment(tp.file.title).format("gggg-[W]ww")%>"
 SORT file.name ASC
 ```
 ---
-# Practice overview
-```dataview
-TABLE without ID 
-		"🚴‍♂️ | Bike"  as "Trained This Week 🚵‍♂️",
-		"![test](https://progress-bar.dev/" + round(sum(rows.bike)/this.file.frontmatter.bikeGoal*100) + "/?color=555555&width=150)"  as  "Percentage",
-		sum(rows.bike) + " | " + this.file.frontmatter.bikeGoal + " ⏱️Hours "  as  Time 
-FROM "Journal/Daily" and #Daily
-WHERE week = "<% moment(tp.file.title).format("gggg-[W]ww")%>"
-group by week
-```
----
-# Notes overview
+# Notes
 ```dataview
 TABLE without id
 
@@ -53,9 +49,27 @@ date
 FROM #note
 WHERE week = "<% moment(tp.file.title).format("gggg-[W]ww")%>"
 ```
-
+---
+# Goals
+```dataview
+List without id
+"## 📖Read "+" ![test](https://progress-bar.dev/" + round(sum(rows.read)/this.file.frontmatter.readGoal*100) + "/?title=progress&width=70)" +"
+⏱️__**Hours:**__ **" + sum(rows.read)+ "/" +this.file.frontmatter.readGoal + "**"
+FROM "Journal/Daily" and #Daily
+WHERE week = "<% moment(tp.file.title).format("gggg-[W]ww")%>"
+group by week
+```
+```dataview
+List without id
+"## 👾Stream "+" ![test](https://progress-bar.dev/" + round(sum(rows.stream)/this.file.frontmatter.streamGoal*100) + "/?title=progress&width=70)" +"
+⏱️__**Hours:**__ **" + sum(rows.stream)+ "/" +this.file.frontmatter.streamGoal + "**"
+FROM "Journal/Daily" and #Daily
+WHERE week = "<% moment(tp.file.title).format("gggg-[W]ww")%>"
+group by week
+```
+---
 # Tasks **<span style="font-size: 20px;">Alt + T to add task</span>**
-### **Earrings**
+### **Earings**
 ```tasks
 not done
 due (after <% moment(tp.file.title).startOf('isoWeek').format("YYYY-MM-DD")%>) and (before <% moment(tp.file.title).endOf('isoWeek').format("YYYY-MM-DD")%>)

@@ -10,7 +10,7 @@
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": true,
-        "createWithTemplate": false,
+        "createWithTemplate": true,
         "template": "Templates/daily.md"
       },
       "format": {

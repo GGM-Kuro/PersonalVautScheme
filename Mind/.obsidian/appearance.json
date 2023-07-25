@@ -14,7 +14,8 @@
     "callouts",
     "sticky",
     "dashboard",
-    "Minimal Theme cards"
+    "Minimal Theme cards",
+    "academicPDF"
   ],
   "interfaceFontFamily": "Inter"
 }

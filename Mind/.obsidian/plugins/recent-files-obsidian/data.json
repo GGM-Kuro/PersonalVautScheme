@@ -5,24 +5,8 @@
       "path": "`To-Do.md"
     },
     {
-      "basename": "Library",
-      "path": "Knowledge/Library.canvas"
-    },
-    {
-      "basename": "JournalTasks",
-      "path": "Tasks/JournalTasks.md"
-    },
-    {
-      "basename": "daily",
-      "path": "xClass/daily.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "Daily Habits",
-      "path": "Journal/Daily/Daily Habits.md"
+      "basename": "2023-W30",
+      "path": "Journal/Weekly/2023-W30.md"
     }
   ],
   "omittedPaths": [

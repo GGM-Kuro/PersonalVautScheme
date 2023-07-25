@@ -2,7 +2,9 @@
 theme: <%* let title = await tp.system.prompt("Theme:");
 while (tp.file.find_tfile("/Knowledge/Themes/" + title)){
 title = await tp.system.prompt("Already exist, insert new name:")};
-await tp.file.move("/Knowledge/Themes/" + title)
+title = title.charAt(0).toUpperCase() + title.slice(1);
+title = title;
+await tp.file.move("/Knowledge/Themes/" + title.split(" ").join("_"))
 tR += title; %>
 tag: theme
 ---

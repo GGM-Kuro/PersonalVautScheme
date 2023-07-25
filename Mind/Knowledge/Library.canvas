@@ -1,9 +1,9 @@
 {
 	"nodes":[
-		{"type":"text","text":"---\ncssClass: cards\n---\n# Themes\n```dataview\nTable without id\nfile.link as Themes\nFROM #theme \n```","id":"a5eea77efd9f2900","x":-2320,"y":-1100,"width":430,"height":540},
+		{"type":"text","text":"---\ncssClass: cards\n---\n# Themes\n```dataview\nTable without id\nfile.link as Themes\nFROM #theme \nsort file.link\n```","id":"a5eea77efd9f2900","x":-2320,"y":-1100,"width":430,"height":540},
 		{"type":"text","text":"---\ncssClass: cards\n---\n# Notes\n```dataview\nTable without ID\n\"[[\" + file.name + \"|\" + title + \"]]\" as Notes,\ntheme\nFrom #note\nsort theme\n```","id":"3ee1a0c73711255b","x":-1860,"y":-1100,"width":620,"height":540},
 		{"type":"text","text":"---\ncssclass: cards\n---\n# Concepts\n```dataview\nTable Without id\n\"[[\" + file.name + \"|\" + title + \"]]\" as Notes,\ntheme,\nfile.mday\nFROM #concept\nSORT theme, file.mday\n```","id":"0326d98fdbab97e2","x":-2320,"y":-540,"width":1080,"height":620},
-		{"id":"d924a4c84871b733","x":-1200,"y":-1100,"width":360,"height":540,"type":"text","text":"---\ncssClass: cards\n---\n# Projects\n```dataview\nTable without id\nfile.link as Projects\nFROM #project \n```"}
+		{"type":"text","text":"---\ncssClass: cards\n---\n# Project\n```dataview\nTable\nFrom #project\nsort theme\n```","id":"e5a795f619f50d9c","x":-1220,"y":-1100,"width":460,"height":540}
 	],
 	"edges":[]
 }
