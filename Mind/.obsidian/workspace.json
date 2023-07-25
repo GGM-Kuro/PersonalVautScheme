@@ -12,13 +12,8 @@
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journal/Weekly/2023-W30.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "pinned": true
             }
           },
@@ -26,9 +21,9 @@
             "id": "c630b20a0d0b952f",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "database-plugin",
               "state": {
-                "file": "`To-Do.md"
+                "file": "Journal/Daily/Daily Habits.md"
               }
             }
           }
@@ -134,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "`To-Do.md"
+                "file": "Journal/Daily/Daily Habits.md"
               }
             }
           },
@@ -189,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "`To-Do.md",
+                "file": "Journal/Daily/Daily Habits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "`To-Do.md",
+                "file": "Journal/Daily/Daily Habits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,14 +225,16 @@
       "homepage:Open homepage": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "periodic-notes:Open today": false,
       "dbfolder:Create a new database table": false,
       "cmdr:New Kanban": false,
-      "cmdr:New draw": false,
-      "periodic-notes:Open today": false
+      "cmdr:New draw": false
     }
   },
   "active": "c630b20a0d0b952f",
   "lastOpenFiles": [
+    "`To-Do.md",
+    "Journal/Daily/Daily Habits.md",
     "Untitled.md",
     "Journal/Weekly/2023-W30.md",
     "Projects/Teclado_laura.md",
@@ -248,7 +245,6 @@
     "Draw/Guia de usuario.md",
     "Tasks/ProjectsTasks/construccion.tskTecladoLaura.md",
     "Tasks/ProjectsTasks/Guia_para_poner_en_marcha_el_backend.tskAffinite.md",
-    "`To-Do.md",
     "Journal/Weekly/2023-W29.md",
     "Untitled Kanban.md",
     "Draws/Drawing 2023-06-26 20.28.44.excalidraw.md",
@@ -264,7 +260,6 @@
     "Knowledge/Notes/Keyboards_2023-07-21_12-03.md",
     "Templates/task.md",
     "Templates/theme.md",
-    "Knowledge/Notes/unity_2023-07-21_11-56.md",
     "Knowledge/Library.canvas",
     "Tasks/ProjectsTasks/prtsk.aff",
     "Tasks/ProjectsTasks",
